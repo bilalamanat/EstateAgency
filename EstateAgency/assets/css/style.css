@@ -1118,6 +1118,7 @@ a:hover {
 
 .intro-single .title-single-box {
   padding: 1rem 0 1rem 2rem;
+  margin-top: -80px;
 }
 
 .intro-single .title-single-box {
@@ -1160,7 +1161,8 @@ a:hover {
   .card-box-b,
   .card-box-c,
   .card-box-d {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.8rem;
+
   }
 }
 
@@ -1188,6 +1190,7 @@ a:hover {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+   
 }
 
 .card-box-a .img-a,
@@ -1841,6 +1844,7 @@ a:hover {
 .about-img-box {
   padding-left: 1rem;
   position: relative;
+  border-radius: 10px;
 }
 
 @media (min-width: 576px) {
@@ -1852,6 +1856,7 @@ a:hover {
 @media (min-width: 768px) {
   .about-img-box {
     padding-left: 5rem;
+    border-radius: 10px;
   }
 }
 
@@ -1861,6 +1866,7 @@ a:hover {
   position: absolute;
   left: 15px;
   bottom: 10px;
+  border-radius: 10px;
 }
 
 @media (min-width: 576px) {
@@ -2157,4 +2163,359 @@ footer .copyright-footer {
 
 footer .credits {
   font-size: 14px;
+}
+/* Style the section background and spacing */
+.section-services {
+  background-color: #f8f8f8; /* Set your desired background color */
+  padding: 60px 0;
+}
+
+/* Style the title */
+.title-a {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: #333; /* Set your desired text color */
+}
+
+/* Style the cards */
+.card-box-c {
+  border: none; /* Remove borders from the cards */
+  background-color: #fff; /* Set card background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the card headers */
+.card-header-c {
+  background-color: #f0f0f0; /* Set header background color */
+  padding: 10px;
+  border-radius: 10px 10px 0 0; /* Round the top corners */
+}
+
+.title-c {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #333; /* Set your desired text color */
+}
+
+/* Style the card body */
+.content-c {
+  color: #666; /* Set your desired text color */
+}
+
+/* Style the "Read more" link */
+.link-c {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007bff; /* Set link color */
+}
+
+/* Hover effect for the "Read more" link */
+.link-c:hover {
+  text-decoration: underline;
+}
+
+/* Style the emoji icons */
+.link-icon {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* Remove borders and outlines for the card boxes */
+.card-box-c {
+  border: none; /* Remove borders */
+  box-shadow: none; /* Remove shadows */
+  outline: none; /* Remove outlines */
+}
+
+/* Optionally, you can add a margin to separate the cards */
+.col-md-4 {
+  margin-bottom: 0px; /* Adjust the margin as needed */
+}
+/* Remove borders and outlines for the card boxes */
+.card-box-c {
+  border: none; /* Remove borders */
+  box-shadow: none; /* Remove shadows */
+  outline: none; /* Remove outlines */
+  transition: transform 0.2s; /* Add a smooth transition effect for the transform property */
+}
+
+/* Add a scale effect on hover */
+.card-box-c:hover {
+  transform: scale(1.05); /* Increase the size of the card slightly */
+}
+.swiper-slide {
+  animation-duration: 5s; /* Adjust the duration as needed (in seconds) */
+}
+.card-box-a {
+  border-radius: 10px;
+
+}
+.card-box-d {
+  border-radius: 10px;
+}
+
+  .card-box-d {
+    height: 400px; /* Set a fixed height for the card boxes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Apply a consistent shadow */
+    margin-bottom: 40px; /* Add some margin to separate the card boxes */
+  
+  }
+ 
+  .card-box-b {
+    border-radius: 10px;
+
+  }
+ .section-testimonials {
+  border: 2px solid #000; /* Set the border width and color */
+  padding: 20px; /* Add some padding to create space between content and border */
+  border-radius: 10px; /* Add rounded corners to the border */
+}
+
+/* Optionally, you can style the testimonial carousel pagination */
+.carousel-pagination {
+  margin-top: 10px; /* Add some spacing above the pagination */
+}
+.img-fluid{
+  border-radius: 10px;
+}
+.img-fluid{
+  width: 1000px;
+  margin-top: -50px;
+}
+Style the comment container
+.box-comments {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+/* Style the container for comments */
+.box-comments {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the comment list */
+.list-comments {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style each individual comment */
+.list-comments li {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  transition: background-color 0.3s; /* Add a smooth transition */
+}
+
+/* Hover styles for each comment item */
+.list-comments li:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Style the comment avatar */
+.comment-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Style the comment author's name */
+.comment-author {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+/* Style the comment date */
+.comment-details span {
+  font-size: 14px;
+  color: #999;
+}
+
+/* Style the comment description */
+.comment-description {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Style the "Reply" link */
+.comment-details a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.comment-details a:hover {
+  text-decoration: underline;
+}
+/* Style for the title box */
+.title-box-d {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the title inside the box */
+.title-d {
+  font-size: 24px;
+  color: #333; /* You can change the color to your preference */
+}
+
+/* Style for the form container */
+.form-a {
+  background-color: #f5f5f5; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for form labels */
+.form-group label {
+  font-weight: bold;
+  color: #555; /* You can change the label color */
+}
+
+/* Style for form inputs and textarea */
+.form-control-a {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* You can customize the border color */
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for the button */
+.btn-a {
+  background-color: #007BFF; /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style for the button on hover */
+.btn-a:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+/* Style the container for the icon boxes */
+.col-md-5.section-md-t3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between icon boxes as needed */
+}
+
+/* Style the icon boxes */
+.icon-box {
+  background-color: #f8f8f8; /* Set a background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+  text-align: center;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.icon-box:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Style the icon inside the icon box */
+.icon-box-icon {
+  font-size: 40px; /* Adjust the icon size */
+  color: #333; /* Set icon color */
+}
+
+/* Style the icon box title */
+.icon-box-title {
+  margin-top: 10px; /* Add spacing between title and icon */
+}
+
+/* Style the icon box content */
+.icon-box-content p {
+  margin: 10px 0;
+}
+
+/* Style the social media icons */
+.socials-footer .list-inline-item {
+  margin-right: 10px; /* Add spacing between social icons */
+}
+
+/* Style the links in the social media icons */
+.link-one {
+  font-size: 24px; /* Adjust the icon size */
+  color: #333; /* Set icon color */
+  text-decoration: none;
+}
+
+.link-one:hover {
+  color: #007bff; /* Change icon color on hover */
+}
+/* Style the form container */
+.php-email-form {
+  background-color: #f8f8f8; /* Set a background color for the form */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Style form fields */
+.form-control.form-control-lg.form-control-a {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Add spacing between fields */
+  border: 1px solid #ccc; /* Add a border */
+}
+
+/* Style the textarea */
+textarea.form-control {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Add spacing between fields */
+  border: 1px solid #ccc; /* Add a border */
+}
+
+/* Style the loading box */
+.loading {
+  font-size: 18px;
+  color: #333;
+  display: none; /* Initially hide the loading box */
+}
+
+/* Style the error message box */
+.error-message {
+  font-size: 16px;
+  color: #ff0000; /* Set the error message color to red */
+  display: none; /* Initially hide the error message box */
+}
+
+/* Style the success message box */
+.sent-message {
+  font-size: 16px;
+  color: #00cc00; /* Set the success message color to green */
+  display: none; /* Initially hide the success message box */
+}
+
+/* Style the "Send Message" button */
+.btn.btn-a {
+  background-color: #007bff; /* Set the button background color */
+  color: #fff; /* Set the button text color to white */
+  padding: 10px 20px; /* Add padding for spacing */
+  border: none;
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.btn.btn-a:hover {
+  background-color: #0056b3; /* Change button color on hover */
 }
